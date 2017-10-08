@@ -9,9 +9,10 @@ function removeFromPlaylist(playlist, artistName){
   var obj = Object.assign({},playlist);
   console.log(obj);
   delete obj[artistName];
-  
+  return obj;
 }
 
-removeFromPlaylist(playlist,"song");
+//removeFromPlaylist(playlist,"song");
+console.log(removeFromPlaylist(playlist,"song"));
 console.log("end");
 console.log(obj);
