@@ -15,4 +15,4 @@ function removeFromPlaylist(playlist, artistName){
 //removeFromPlaylist(playlist,"song");
 console.log(removeFromPlaylist(playlist,"song"));
 console.log("end");
-console.log(obj);
+
